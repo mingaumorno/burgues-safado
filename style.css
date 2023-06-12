@@ -1,0 +1,39 @@
+body {
+    overflow: hidden;
+    background-color: hsl(185, 75%, 39%);
+}
+
+#top {
+    position: absolute;
+    bottom: 50vh;
+    right: 55vw;
+}
+
+#bottom {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+}
+
+.card {
+    background-color: white;
+    height: 45vh;
+    width: 20vw;
+    position: absolute;
+    right: 41vw;
+    top: 22vh;
+}
+
+#capa {
+    width: 20vw;
+}
+
+#burguês-safado {
+    position: relative;
+    left: 06.9vw;
+    bottom: 7.6vh;
+}
+
+#info {
+    position: absolute;
+}
