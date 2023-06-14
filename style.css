@@ -55,7 +55,7 @@ body {
 .perfil p {
     position: relative;
     left: 3vw;
-    bottom: 1vh;
+    bottom: -1vh;
 }
 
 .info table {
@@ -65,9 +65,10 @@ body {
 
 td,
 th {
-    padding: 5.5px;
+    padding-left: 30px;
     position: relative;
-    right: 0.5vw;
+    right: 2.7vw;
+    top: 1.8vh;
 }
 
 hr {
@@ -87,6 +88,13 @@ span {
 }
 
 h1 {
+    position: relative;
+    top: 2vh;
     font-size: 20px;
     font-weight: 550;
+}
+
+td {
+    font-size: 10px;
+    color: gray;
 }
