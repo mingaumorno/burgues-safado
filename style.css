@@ -1,6 +1,7 @@
 body {
     overflow: hidden;
     background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 #top {
@@ -22,18 +23,70 @@ body {
     position: absolute;
     right: 41vw;
     top: 22vh;
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 2px 39px -1px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: -1px 2px 39px -1px rgba(0, 0, 0, 0.7);
+    box-shadow: -1px 2px 39px -1px rgba(0, 0, 0, 0.7);
 }
 
 #capa {
     width: 20vw;
+    border-radius: 10px 10px 0 0;
 }
 
 #burguês-safado {
     position: relative;
-    left: 06.9vw;
+    left: 06.7vw;
     bottom: 7.6vh;
+    border-radius: 100px;
+    border: 5px solid white;
 }
 
-#info {
-    position: absolute;
+.info {
+    position: relative;
+    bottom: 10vh;
+}
+
+.perfil {
+    position: relative;
+    left: 5vw;
+}
+
+.perfil p {
+    position: relative;
+    left: 3vw;
+    bottom: 1vh;
+}
+
+.info table {
+    position: relative;
+    left: 3.8vw;
+}
+
+td,
+th {
+    padding: 5.5px;
+    position: relative;
+    right: 0.5vw;
+}
+
+hr {
+    border: -4px solid rgb(211, 211, 211);
+    position: relative;
+    top: 1vh;
+}
+
+span,
+p {
+    color: gray;
+}
+
+span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 550;
 }
